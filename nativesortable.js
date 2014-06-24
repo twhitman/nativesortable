@@ -233,6 +233,8 @@
             });
 
             removeFakeDragHandlers();
+
+            stop(this);
         };
 
         var handleTouchMove = delegate(function(e) {
